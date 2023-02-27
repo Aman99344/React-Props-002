@@ -1,0 +1,123 @@
+.maincontainer{
+    width: 100%;
+    height: 100%;
+    border-radius: 19px;
+    background: linear-gradient(to right, #0a0a0a 50%, transparent 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.cards{
+    width: 50%;
+    height: 45vh;
+    margin: 2.5rem ;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    align-items: center;
+    background-size: cover;  
+    color: rgb(239, 235, 235);
+    box-shadow: 0px 0px 150px -45px rgba(194, 159, 159, 0.5);
+
+}
+
+.rightcontent{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.upperright{
+    width: 95%;
+    height: 38%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.imagecon{
+    width: 24%;
+    height: 92%;
+    box-shadow: 0 0 20px -10px rgba(0,0,0,0.5);
+
+}
+.imagecon img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.imagedetails{
+    width: 70%;
+    height: 80%;
+    margin-bottom: 1rem;
+}
+.imagedetails h1{
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: white;
+}
+.imagedetails small{
+    font-size: .8rem;
+    color: #94abc4;
+    font-weight: 400;
+
+}
+
+.timegenre{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.timegenre p{
+    font-size: .8rem;
+}
+.time{
+    width: 22%;
+    height: 80%;
+    margin-right: 2rem;
+    border-radius: 5px;
+    border: 2px solid rgba(207, 205, 205, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.timegenre .time span{
+    font-size: .7rem;
+}
+
+.lowerright{
+    width: 95%;
+    height: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.icons{
+    width: 50%;
+    height: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #6e6d6d;
+}
+.leftcontent{
+    width: 50%;
+    height: 100%;
+}
+
+.lowerright p{
+    color: #6e6d6d;
+    font-size: .9rem;
+    font-weight: 400;
+}
